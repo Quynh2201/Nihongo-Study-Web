@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Nihongo</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/62bd578e01.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="preloader" data-preloader> <!--data-attribute: gan ttin tuy chinh vao phan tu-->
+        <div class="circle" data-circle></div>
+    </div>
+
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./img/Pink And Blue Retro Modern Y2K Streetwear Logo .png" width="145" height="27" alt="Youdemi home">
+            </a>
+        
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link title-sm" data-nav-link>ダッシュボード</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link title-sm" data-nav-link>コース</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link title-sm" data-nav-link>ブログ</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link title-sm" data-nav-link>連絡先</a>
+                    </li>
+                </ul>  
+            </nav>
+
+            <button class="btn btn-secondary btn-startfree">無料アカウントを作成</button>
+
+            <!-- <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <i class="fa-solid fa-bars"></i>
+            </button> -->
+
+            <button data-nav-toggler class="nav-open-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div style="height: 100vh; width: 300px" class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <nav class="navbar-vertically" data-navbar>
+                    <div class="navbar-top">
+                        <a href="#" class="logo">
+                            <img src="./img/Pink And Blue Retro Modern Y2K Streetwear Logo .png" width="145" height="27" alt="Youdemi home">
+                        </a>
+
+                        <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" class="nav-close-btn" data-nav-toggler> 
+                            <i class="fa-regular fa-rectangle-xmark"></i>
+                        </button>
+                    </div>
+
+                    <ul class="navbar-list-vertically">
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link title-sm" data-nav-link>ダッシュボード</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link title-sm" data-nav-link>コース</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link title-sm" data-nav-link>ブログ</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link title-sm" data-nav-link>連絡先</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+            </div>
+            
+            <div class="overlay" data-overlay data-nav-toggler></div>
+        </div>
+
+        
+    </header>
+
+    <body class="body">
+        <article>
+            <section class="section hero has-bg-img" style="background-image: url('./img/hero-bg.png');">
+                <div class="containerr">
+                    <div class="hero-content">
+                        <h1 class="hero-content-1">
+                            あきらめないことだ。<span class="span">一度</span>あきらめると習慣になる
+                        </h1>
+
+                        <p class="hero-content-2 has-before">
+                            今から日本語を学ぶ習慣をつけましょう
+                        </p>
+
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-outline-danger">今すぐ始めましょう</button>
+                            <button type="button" class="btn btn-outline-secondary">今すぐ始めましょう</button>
+                        </div>
+                    </div>
+
+                    <figure class="hero-banner">
+                        <img style="background-repeat: no-repeat;" src="./img/hero-banner.png" alt="hero banner" class="hero-banner-img">
+                    </figure>
+                </div>
+            </section>
+
+            <section class="section category has-bg-img" aria-labelledby="category-label" style="background-image: url('./img/category-bg.png');">
+                <div class="container">
+                    <p class="title-category" id="category-label">コースカテゴリー</p>
+                    <h2 class="category-context">
+                        トップ<span class="span has-after">カテゴリー</span>を参照 
+                    </h2>
+
+                    <ul class="grid-list">
+                        <li>
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img style="padding: 6px;" src="./img/jlpt n5.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="wrapper">
+                                            <h3 class="context-category">Ｎ５無料コース</h3>
+                                            <p class="category-text">２ヶ月</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="link-course" aria-label="Finances Course"></a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card mb-3">
+                                <div class="row g-0" style="gap: 5%;">
+                                    <div class="col-md-4">
+                                        <img style="padding: 6px;" src="./img/jlpt n4.webp" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="wrapper">
+                                            <h3 class="context-category">Ｎ４無料コース</h3>
+                                            <p class="category-text">４ヶ月</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="link-course" aria-label="Finances Course"></a>
+                            </div>
+                        </li>     
+
+                        <li>
+                            <div class="card mb-3">
+                                <div class="row g-0" style="gap: 5%;">
+                                    <div class="col-md-4">
+                                        <img style="padding: 6px;" src="./img/jlpt n3.webp" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="wrapper">
+                                            <h3 class="context-category">Ｎ３無料コース</h3>
+                                            <p class="category-text">１０ヶ月</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="link-course" aria-label="Finances Course"></a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card mb-3">
+                                <div class="row g-0" style="gap: 5%;">
+                                    <div class="col-md-4">
+                                        <img style="padding: 6px;" src="./img/jlpt n2.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="wrapper">
+                                            <h3 class="context-category">Ｎ２無料コース</h3>
+                                            <p class="category-text">１２ヶ月</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="link-course" aria-label="Finances Course"></a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card mb-3">
+                                <div class="row g-0" style="gap: 5%;">
+                                    <div class="col-md-4">
+                                        <img style="padding: 6px;" src="./img/jlpt n1.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="wrapper">
+                                            <h3 class="context-category">Ｎ１無料コース</h3>
+                                            <p class="category-text">１８ヶ月</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="link-course" aria-label="Finances Course"></a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card mb-3">
+                                <div class="row g-0" style="gap: 5%;">
+                                    <div class="col-md-4">
+                                        <img style="padding: 6px;" src="./img/luyen-tieng-nhat-giao-tiep.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="wrapper">
+                                            <h3 class="context-category">社交コース</h3>
+                                            <p class="category-text">１２ヶ月</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="link-course" aria-label="Finances Course"></a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="btn-viewall">
+                        <button type="button" class="btn btn-secondary">すべてのカテゴリを表示</button>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section class="section about" aria-labelledby="about-label">
+                <div class="container">
+                    <figure class="about-banner">
+                        <img src="./img/about-banner.png" alt="about image" loading="lazy">
+                    </figure>
+
+                    <div class="about-content">
+                        <p class="title-about" id="about-label">NihongoStudyについて</p>
+                        <h2 class="about-context">
+                            私たちは最高のオンライン<span class="span has-after">教育</span>を提供します。
+                        </h2>
+
+                        <p class="about-text">
+                            生徒たちからたくさんの良い感想をいただきました。
+                        </p>
+
+                        <ul class="about-progess-list">
+                            <li>
+                                <div class="about-progess-wrapper">
+                                    <p class="about-progess-text">JLPT試験に合格</p>
+                                    <p class="about-progess-text">86%</p>
+                                </div>
+
+                                <div class="about-progess">
+                                    <div class="progess-fill pink"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="about-progess-wrapper">
+                                    <p class="about-progess-text">日本語で流暢にコミュニケーションが取れる</p>
+                                    <p class="about-progess-text">80%</p>
+                                </div>
+
+                                <div class="about-progess">
+                                    <div class="progess-fill green"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="about-progess-wrapper">
+                                    <p class="about-progess-text">日本人が大好き</p>
+                                    <p class="about-progess-text">96%</p>
+                                </div>
+
+                                <div class="about-progess">
+                                    <div class="progess-fill yellow"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section course has-bg-img" aria-labelledby="course-label" 
+                style="background-image: url('./img/course-bg.png'); z-index:2">
+                <div class="container" >
+                    <p class="title-course">注目のコース</p>
+                    <h2 class="course-context" id="course-label">
+                        無制限の<span class="span has-after">コース</span>を選択する
+                    </h2>
+
+                    <ul class="grid-list">
+                        <li class="card-container">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-5">
+                                        <img src="./img/course-1.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="wrapper">
+                                            <p class="card-price">$30</p>
+                                            <div class="rating-wrapper" style="display: flex;">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                            </div>
+                                        </div>
+
+                                        <h3 class="card-title">
+                                            基礎日本語コース
+                                        </h3>
+
+                                        <div class="card-meta-wrapper" style="display: flex;">
+                                            <p class="title-course">
+                                                <img src="./img/file-outline.svg" alt="icon" loading="lazy">
+                                            </p>
+                                            <span class="span-course">12 レッスン</span>
+
+                                            <p class="title-course">
+                                                <img src="./img/user-outline.svg" alt="icon" loading="lazy">
+                                            </p>
+                                            <span class="span-course">三千の学生</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="link-course" aria-label="Finances Course"></a>
+                            </div>
+                        </li>
+
+                        <li class="card-container">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-5">
+                                        <img src="./img/course-1.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="wrapper" style="display: flex;">
+                                            <p class="card-price">$28</p>
+                                            <div class="rating-wrapper" style="display: flex;">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                            </div>
+                                        </div>
+
+                                        <h3 class="card-title">
+                                            JLPTN5試験対策
+                                        </h3>
+
+                                        <div class="card-meta-wrapper" style="display: flex;">
+                                            <p class="title-course">
+                                                <img src="./img/file-outline.svg" alt="icon" loading="lazy">
+                                            </p>
+                                            <span class="span-course">１０ レッスン</span>
+
+                                            <p class="title-course">
+                                                <img src="./img/user-outline.svg" alt="icon" loading="lazy">
+                                            </p>
+                                            <span class="span-course">二千の学生</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="link-course" aria-label="Finances Course"></a>
+                            </div>
+                        </li>
+                        
+
+                        <li class="card-container">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-5">
+                                        <img src="./img/course-1.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="wrapper" style="display: flex;">
+                                            <p class="card-price">$29</p>
+                                            <div class="rating-wrapper" style="display: flex;">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                            </div>
+                                        </div>
+
+                                        <h3 class="card-title">
+                                            JLPTN4試験対策
+                                        </h3>
+
+                                        <div class="card-meta-wrapper" style="display: flex;">
+                                            <p class="title-course">
+                                                <img src="./img/file-outline.svg" alt="icon" loading="lazy">
+                                            </p>
+                                            <span class="span-course">２０ レッスン</span>
+
+                                            <p class="title-course">
+                                                <img src="./img/user-outline.svg" alt="icon" loading="lazy">
+                                            </p>
+                                            <span class="span-course">五千の学生</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="link-course" aria-label="Finances Course"></a>
+                            </div>
+                        </li>
+
+                        <li class="card-container">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-5">
+                                        <img src="./img/course-1.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="wrapper" style="display: flex;">
+                                            <p class="card-price">$29.28</p>
+                                            <div class="rating-wrapper" style="display: flex;">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                            </div>
+                                        </div>
+
+                                        <h3 class="card-title">
+                                            JLPTN3試験対策
+                                        </h3>
+
+                                        <div class="card-meta-wrapper" style="display: flex;">
+                                            <p class="title-course">
+                                                <img src="./img/file-outline.svg" alt="icon" loading="lazy">
+                                            </p>
+                                            <span class="span-course">２５ レッスン</span>
+
+                                            <p class="title-course">
+                                                <img src="./img/user-outline.svg" alt="icon" loading="lazy">
+                                            </p>
+                                            <span class="span-course">三千の学生</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="link-course" aria-label="Finances Course"></a>
+                            </div>
+                        </li>
+
+                        <li class="card-container">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-5">
+                                        <img src="./img/course-1.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="wrapper" style="display: flex;">
+                                            <p class="card-price">$40</p>
+                                            <div class="rating-wrapper" style="display: flex;">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                            </div>
+                                        </div>
+
+                                        <h3 class="card-title">
+                                            JLPTN2試験対策
+                                        </h3>
+
+                                        <div class="card-meta-wrapper" style="display: flex;">
+                                            <p class="title-course">
+                                                <img src="./img/file-outline.svg" alt="icon" loading="lazy">
+                                            </p>
+                                            <span class="span-course">２０ レッスン</span>
+
+                                            <p class="title-course">
+                                                <img src="./img/user-outline.svg" alt="icon" loading="lazy">
+                                            </p>
+                                            <span class="span-course">三千の学生</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="link-course" aria-label="Finances Course"></a>
+                            </div>
+                        </li>
+
+                        <li class="card-container">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-5">
+                                        <img src="./img/course-1.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="wrapper" style="display: flex;">
+                                            <p class="card-price">$42</p>
+                                            <div class="rating-wrapper" style="display: flex;">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                                <img src="./img/star-fill.svg" alt="star rate" loading="lazy">
+                                            </div>
+                                        </div>
+
+                                        <h3 class="card-title">
+                                            JLPTN1試験対策
+                                        </h3>
+
+                                        <div class="card-meta-wrapper" style="display: flex;">
+                                            <p class="title-course">
+                                                <img src="./img/file-outline.svg" alt="icon" loading="lazy">
+                                            </p>
+                                            <span class="span-course">４０ レッスン</span>
+
+                                            <p class="title-course">
+                                                <img src="./img/user-outline.svg" alt="icon" loading="lazy">
+                                            </p>
+                                            <span class="span-course">一千の学生</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="link-course" aria-label="Finances Course"></a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <div class="btn-viewall">
+                        <button type="button" class="btn btn-secondary">すべてのコースを見る</button>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="CTA" aria-labelledby="cta-label">
+                <div class="container">
+                    <h2 class="title-cta" id="cta-label">
+                        教育は明日のリーダーを育てることです
+                    </h2>
+                    <div class="CTA-btn">
+                        <button type="button" class="btn btn-secondary">今日登録する</button>
+                    </div>
+                    
+                </div>
+            </section>
+        </article>
+    
+    </body>
+
+    <footer class="section footer has-bg-img" style="background-image: url('./img/footer-bg.png');">
+        <div class="section footer-top" >
+            <div class="container">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img width="147px" height="60px" src="./img/Pink And Blue Retro Modern Y2K Streetwear Logo .png" alt="">
+                    </a>
+
+                    <p class="footer-text">
+                        今から日本語を学ぶ習慣をつけましょう
+                    </p>
+
+                    <ul class="social-list">
+                        <li>
+                            <a href="#" class="social-link">
+                                <img src="./img/facebook.svg" loading="lazy" alt="fb">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <img src="./img/instagram.svg" loading="lazy" alt="ins">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <img src="./img/pinterest.svg" loading="lazy" alt="prin">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <img src="./img/twitter.svg" loading="lazy" alt="tw">
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="footer-list first">
+                    <li>
+                        <p class="footer-list-title">リンク</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">ダッシュボード</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">私たちについて</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">価格設定</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">コース</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">連絡先</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">ブログ</a>
+                    </li>
+                </div>
+
+                <div class="footer-list second">
+                    <li>
+                        <p class="footer-list-title">法律上</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">法律上</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">使用条件</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">武装と状態</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">支払方法</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">プライバシーポリシー</a>
+                    </li>
+                </div>
+
+                <div class="footer-list final">
+                    <li>
+                        <p class="footer-list-title">インスタグラムの投稿</p>
+
+                        <ul class="grid-list">
+                            <li>
+                                <img src="./img/ins-1.png" loading="lazy" alt="ins post" class="img-cover">
+                            </li>
+
+                            <li>
+                                <img src="./img/ins-1.png" loading="lazy" alt="ins post" class="img-cover">
+                            </li>
+
+                            <li>
+                                <img src="./img/ins-1.png" loading="lazy" alt="ins post" class="img-cover">
+                            </li>
+
+                            <li>
+                                <img src="./img/ins-1.png" loading="lazy" alt="ins post" class="img-cover">
+                            </li>
+
+                            <li>
+                                <img src="./img/ins-1.png" loading="lazy" alt="ins post" class="img-cover">
+                            </li>
+
+                            <li>
+                                <img src="./img/ins-1.png" loading="lazy" alt="ins post" class="img-cover">
+                            </li>
+                        </ul>
+                    </li>
+
+
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="section footer-bottom">
+            <div class="footer-container">
+                <p class="copyright">© Copyright 2024 | Nihongo Study | All Rights Reserved by quynh2201</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
