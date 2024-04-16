@@ -410,6 +410,7 @@ body.nav-active { overflow: hidden; }
 
 .category .grid-list li{
     border-radius: 8px;
+    height: 150px;
 }
 .category-context, .about-context, .course-context{
     font-size: 44px;
@@ -615,6 +616,10 @@ body.nav-active { overflow: hidden; }
     padding-right: 20px;
 }
 
+.course .col-md-5 img{
+    height: 123.2px;
+}
+
 .card.mb-3:is(:hover, :focus-within){
     border-bottom: 5px solid brown;
     cursor: pointer;
@@ -796,12 +801,28 @@ body.nav-active { overflow: hidden; }
     gap:5%; 
     padding:0;
 }
+
+.footer .social-list a{
+    position: relative;
+}
+.footer .social-list img{
+    transition: filter 0.3s ease;
+}
+
+.footer .social-list a:hover img{
+    filter: brightness(70%);
+}
+
 .section .footer-top{
     height: auto;
 }
 .footer-list{
     font-size: 18px;
     width: 17%;
+}
+
+.footer-list a:hover{
+    color: brown;
 }
 .footer-list .final{
     width: 50%; 
@@ -820,6 +841,11 @@ body.nav-active { overflow: hidden; }
 .footer-list .grid-list{
     grid-template-columns: repeat(3, 1fr);
     padding: 0px;
+}
+
+.footer-list .grid-list li img{
+    width: 80px;
+    height: 80px;
 }
 
 .footer .footer-bottom .footer-container{
